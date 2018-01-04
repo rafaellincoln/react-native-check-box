@@ -49,7 +49,7 @@ export default class CheckBox extends Component {
         rightTextStyle: {}
     }
     componentWillReceiveProps(nextProps) {
-        this.state.setState({
+        this.setState({
             isChecked: nextProps.isChecked,
         })
     }
